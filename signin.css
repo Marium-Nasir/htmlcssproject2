@@ -91,7 +91,7 @@ ul li a{
     width: 110%;
     margin: 4%;
     background-color: black;
-    color: #fff;
+    color: white;
     font-size: medium;
     text-align: center;
 }
@@ -99,9 +99,9 @@ ul li a{
 .inputsa{
     height: 10%;
     width: 40%;
-    margin: 4% 4% 5% 2%;
-    background-color: rgba(33, 95, 116, 0.601);
-    color: #fff;
+    margin: 4%;
+    color: white;
+    background-color: black;
     font-size: medium;
     text-align: center;
 }
@@ -119,9 +119,12 @@ ul li a{
      width:25vw;
      border-radius: 50%;
  }
- .inputsa{
-    text-decoration: none;
-    color: black;
+ /* .inputsa{
+  
+   
+ } */
+ #forgetpass{
+    width: 90%;
  }
 .footer{
     height: 8vh;
