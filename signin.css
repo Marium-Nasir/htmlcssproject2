@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 17vh;
+    width: 100vw;
+    background-color: rgb(27, 156, 27);
+    color: white;
+   
+}
+ul{
+    width: 45%;
+    display: flex;
+    padding: 3% ;
+    /* margin: auto; */
+    height:5vh ;
+    float: right;
+}
+
+ul :hover{
+    
+    background-color: rgb(72, 222, 72);
+}
+ul li  {
+    list-style: none;
+    padding: 0% 3%;
+   /* border: 2px dashed lightgreen; */
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+.roundimg{
+    float: left;
+    height: 97% ;
+    width: 8vw;
+    border: 3px solod white;
+    border-radius: 50%;
+}
+.main{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 90vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+.sidepanel{
+    background-color: aquamarine;
+}
+.loginpanel{
+    background-color: blue;
+    background-image: url("loginimg.jpg");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.page{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    height: 70vh;
+    width: 60vw;
+    /* background-color: greenyellow; */
+    margin: 10vh auto;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border: 3px solid lightblue;
+}
+.inputs{
+    /* background-color: #fff; */
+    box-sizing: border-box;
+    /* border: 3px solid lightblue; */
+    border-radius: 10%;
+    padding: 20% 20% 10% 10%;
+}
+#useremail{
+    height: 10%;
+    width: 110%;
+    margin: 4%;
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+    text-align: center;
+}
+#userpass{
+    height: 10%;
+    width: 110%;
+    margin: 4%;
+    background-color: black;
+    color: #fff;
+    font-size: medium;
+    text-align: center;
+}
+
+.inputsa{
+    height: 10%;
+    width: 40%;
+    margin: 4% 4% 5% 2%;
+    background-color: rgba(33, 95, 116, 0.601);
+    color: #fff;
+    font-size: medium;
+    text-align: center;
+}
+
+
+.img{
+    /* background-color: aquamarine; */
+    box-sizing: border-box;
+    /* border: 3px solid lightblue; */
+    border-radius: 10%;
+    padding-top: 12%;
+}
+ .loginround{
+     height: 50vh;
+     width:25vw;
+     border-radius: 50%;
+ }
+ .inputsa{
+    text-decoration: none;
+    color: black;
+ }
+.footer{
+    height: 8vh;
+    width: 100vw;
+    text-align: center;
+    background-color: darkgreen;
+    color: aliceblue;
+    padding: 2% 0%;
+}

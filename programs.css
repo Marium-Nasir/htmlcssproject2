@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 17vh;
+    width: 100vw;
+    background-color: rgb(27, 156, 27);
+    color: white;
+   
+}
+ul{
+    width: 45%;
+    display: flex;
+    padding: 3% ;
+    /* margin: auto; */
+    height:5vh ;
+    float: right;
+}
+
+ul :hover{
+    
+    background-color: rgb(72, 222, 72);
+}
+ul li  {
+    list-style: none;
+    padding: 0% 3%;
+   /* border: 2px dashed lightgreen; */
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+.roundimg{
+    float: left;
+    height: 97% ;
+    width: 8vw;
+    border: 3px solod white;
+    border-radius: 50%;
+}
